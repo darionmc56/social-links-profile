@@ -67,7 +67,7 @@ main {
   color: hsl(0, 0%, 50%);
 }
 
-.content .content-gitHub {
+.content .content-link {
   width: 80%;
   height: 1px;
   background-color: hsl(0, 0%, 20%);
@@ -80,54 +80,8 @@ main {
   align-items: center;
   font-weight: 600;
 }
-.content .content-frontendMentor {
-  width: 80%;
-  height: 1px;
-  background-color: hsl(0, 0%, 20%);
-  border-radius: 8px;
-  padding: 1.2rem;
-  text-align: center;
-  margin-bottom: 0.8rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 600;
-}
-.content .content-linkedIn {
-  width: 80%;
-  height: 1px;
-  background-color: hsl(0, 0%, 20%);
-  border-radius: 8px;
-  padding: 1.2rem;
-  text-align: center;
-  margin-bottom: 0.8rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 600;
-}
-.content .content-twitter {
-  width: 80%;
-  height: 1px;
-  background-color: hsl(0, 0%, 20%);
-  border-radius: 8px;
-  padding: 1.2rem;
-  text-align: center;
-  margin-bottom: 0.8rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 600;
-}
-.content .content-instagram {
-  width: 80%;
-  height: 1px;
-  background-color: hsl(0, 0%, 20%);
-  border-radius: 8px;
-  padding: 1.2rem;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 600;
+
+.content .content-link:active {
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
 }
